@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#OnBack" prefHeight="768.0" prefWidth="1366.0" styleClass="my_pane" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreditController">
+   <children>
+      <Pane layoutX="722.0" layoutY="152.0" prefHeight="536.0" prefWidth="540.0" style="-fx-border-color: #07d159;">
+         <children>
+            <Label contentDisplay="CENTER" layoutX="155.0" layoutY="14.0" prefHeight="99.0" prefWidth="222.0" styleClass="title" stylesheets="@styles.css" text="Credits" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="52.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="44.0" layoutY="131.0" prefHeight="48.0" prefWidth="203.0" styleClass="title" stylesheets="@styles.css" text="Lead Developer:" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="23.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="347.0" layoutY="131.0" prefHeight="48.0" prefWidth="203.0" styleClass="title" stylesheets="@styles.css" text="Jorge Giucich" textFill="#fff70f">
+               <font>
+                  <Font name="Silom" size="23.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="44.0" layoutY="190.0" prefHeight="48.0" prefWidth="294.0" styleClass="title" stylesheets="@styles.css" text="Design &amp; Development:" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="23.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="347.0" layoutY="190.0" prefHeight="48.0" prefWidth="165.0" styleClass="title" stylesheets="@styles.css" text="Ivan Koop" textFill="#fff70f">
+               <font>
+                  <Font name="Silom" size="23.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="44.0" layoutY="244.0" prefHeight="48.0" prefWidth="147.0" styleClass="title" stylesheets="@styles.css" text="Professor:" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="23.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="347.0" layoutY="244.0" prefHeight="48.0" prefWidth="203.0" styleClass="title" stylesheets="@styles.css" text="Ricardo Fabio" textFill="#fff70f">
+               <font>
+                  <Font name="Silom" size="23.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="44.0" layoutY="327.0" prefHeight="48.0" prefWidth="397.0" styleClass="title" stylesheets="@styles.css" text="Universidad Católica Nuestra" textFill="#fff70f">
+               <font>
+                  <Font name="Silom" size="23.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="79.0" layoutY="368.0" prefHeight="48.0" prefWidth="282.0" styleClass="title" stylesheets="@styles.css" text="Señora de la " textFill="#fff70f">
+               <font>
+                  <Font name="Silom" size="23.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="247.0" layoutY="368.0" prefHeight="48.0" prefWidth="282.0" styleClass="title" stylesheets="@styles.css" text="Asunción" textFill="#fff70f">
+               <font>
+                  <Font name="Silom" size="23.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="220.0" layoutY="446.0" prefHeight="57.0" prefWidth="136.0" styleClass="title" stylesheets="@styles.css" text="2015" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="41.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="153.0" layoutY="152.0" prefHeight="277.0" prefWidth="488.0" style="-fx-border-color: #07d159;">
+         <children>
+            <Label id="holo" contentDisplay="CENTER" layoutX="59.0" layoutY="31.0" prefHeight="99.0" prefWidth="255.0" styleClass="title" stylesheets="@styles.css" text="Alien" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="52.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="223.0" layoutY="31.0" prefHeight="99.0" prefWidth="213.0" styleClass="title" stylesheets="@styles.css" text="Hunt" textFill="#fff70f">
+               <font>
+                  <Font name="Silom" size="52.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="97.0" layoutY="123.0" prefHeight="99.0" prefWidth="147.0" styleClass="title" stylesheets="@styles.css" text="2000" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="52.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="66.0" layoutY="26.0" mnemonicParsing="false" onAction="#OnBack" prefHeight="63.0" prefWidth="147.0" styleClass="back_btn" text="Back" textFill="#07d159">
+         <font>
+            <Font name="Silom" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

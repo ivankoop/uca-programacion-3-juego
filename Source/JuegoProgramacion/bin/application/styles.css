@@ -1,0 +1,35 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.my_pane{
+	 -fx-background-image: url("fondo.png");
+	 -fx-background-size: cover;
+}
+
+.circle{
+	-fx-background-color: none;
+	-fx-border-color: #07d159;
+	-fx-border-radius: 5px;
+}
+
+.circle:hover{
+	-fx-border-color: yellow;
+	-fx-font-size: 3em;
+	-fx-font-family: "Silom";
+}
+
+.back_btn{
+	-fx-background-color: none;
+	-fx-border-color: #07d159;
+	-fx-border-radius: 5px;
+}
+
+.back_btn:hover{
+	-fx-border-color: yellow;
+	-fx-font-size: 2em;
+	-fx-font-family: "Silom";
+}
+
+.highScore_view{
+	-fx-background-image: url("fondo.png");
+	-fx-background-size: cover;
+}

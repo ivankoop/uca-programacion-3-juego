@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" styleClass="my_pane" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DefeatController">
+   <children>
+      <Pane layoutX="439.0" layoutY="47.0" prefHeight="166.0" prefWidth="475.0" style="-fx-border-color: #07d159;">
+         <children>
+            <Label contentDisplay="CENTER" layoutX="49.0" layoutY="6.0" prefHeight="74.0" prefWidth="223.0" styleClass="title" stylesheets="@styles.css" text="You Died!" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="35.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="49.0" layoutY="80.0" prefHeight="61.0" prefWidth="198.0" styleClass="title" stylesheets="@styles.css" text="Your Score is:" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="26.0" />
+               </font>
+            </Label>
+            <Label fx:id="Score_data" contentDisplay="CENTER" layoutX="247.0" layoutY="80.0" prefHeight="61.0" prefWidth="198.0" styleClass="title" stylesheets="@styles.css" text="34612" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label contentDisplay="CENTER" layoutX="439.0" layoutY="235.0" prefHeight="99.0" prefWidth="253.0" styleClass="title" stylesheets="@styles.css" text="Enter your name:" textFill="#07d159">
+         <font>
+            <Font name="Silom" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="prim_txfield" layoutX="692.0" layoutY="257.0" onKeyTyped="#Onkeyprim" prefHeight="54.0" prefWidth="55.0" style="-fx-background-color: none; -fx-text-inner-color: #07d159;">
+         <font>
+            <Font name="Silom" size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="seg_txfield" layoutX="747.0" layoutY="257.0" onKeyTyped="#Onkeyseg" prefHeight="54.0" prefWidth="55.0" style="-fx-background-color: none; -fx-text-inner-color: #07d159;">
+         <font>
+            <Font name="Silom" size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ter_txfield" layoutX="802.0" layoutY="257.0" onKeyTyped="#Onkeyter" prefHeight="54.0" prefWidth="55.0" style="-fx-background-color: none; -fx-text-inner-color: #07d159;">
+         <font>
+            <Font name="Silom" size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="cuar_txfield" layoutX="857.0" layoutY="257.0" onKeyTyped="#Onkeycuar" prefHeight="54.0" prefWidth="55.0" style="-fx-background-color: none; -fx-text-inner-color: #07d159;">
+         <font>
+            <Font name="Silom" size="25.0" />
+         </font>
+      </TextField>
+      <Line endX="103.0" layoutX="635.0" layoutY="312.0" startX="61.0" stroke="#07d159" strokeMiterLimit="2.0" />
+      <Line endX="103.0" layoutX="691.0" layoutY="312.0" startX="61.0" stroke="#07d159" strokeMiterLimit="2.0" />
+      <Line endX="103.0" layoutX="746.0" layoutY="312.0" startX="61.0" stroke="#07d159" strokeMiterLimit="2.0" />
+      <Line endX="103.0" layoutX="801.0" layoutY="312.0" startX="61.0" stroke="#07d159" strokeMiterLimit="2.0" />
+      <Button fx:id="again_btn" layoutX="432.0" layoutY="467.0" mnemonicParsing="false" onAction="#OnAgain" prefHeight="74.0" prefWidth="223.0" styleClass="back_btn" text="Play Again" textFill="#07d159">
+         <font>
+            <Font name="Silom" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="menu_btn" layoutX="683.0" layoutY="467.0" mnemonicParsing="false" onAction="#OnMenu" prefHeight="74.0" prefWidth="223.0" styleClass="back_btn" text="Main Menu" textFill="#07d159">
+         <font>
+            <Font name="Silom" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="clear_btn" layoutX="439.0" layoutY="312.0" mnemonicParsing="false" onAction="#OnClear" prefHeight="54.0" prefWidth="125.0" styleClass="back_btn" text="Clear" textFill="#07d159">
+         <font>
+            <Font name="Silom" size="20.0" />
+         </font>
+      </Button>
+      <Label contentDisplay="CENTER" layoutX="439.0" layoutY="384.0" prefHeight="99.0" prefWidth="475.0" styleClass="title" stylesheets="@styles.css" text="You must enter your name to continue!" textFill="#07d159">
+         <font>
+            <Font name="Silom" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

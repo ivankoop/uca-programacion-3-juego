@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" styleClass="my_pane" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <children>
+      <Button layoutX="962.0" layoutY="200.0" mnemonicParsing="false" onAction="#OnPlay" prefHeight="99.0" prefWidth="289.0" styleClass="circle" text="Play" textFill="#07d159">
+         <font>
+            <Font name="Silom" size="30.0" />
+         </font></Button>
+      <Button layoutX="962.0" layoutY="342.0" mnemonicParsing="false" onAction="#onHighScore" prefHeight="99.0" prefWidth="289.0" styleClass="circle" text="High Scores" textFill="#07d159">
+         <font>
+            <Font name="Silom" size="30.0" />
+         </font></Button>
+      <Button layoutX="962.0" layoutY="482.0" mnemonicParsing="false" onAction="#onCredit" prefHeight="99.0" prefWidth="289.0" styleClass="circle" text="Credits" textFill="#07d159">
+         <font>
+            <Font name="Silom" size="30.0" />
+         </font></Button>
+      <Pane layoutX="272.0" layoutY="200.0" prefHeight="277.0" prefWidth="488.0" style="-fx-border-color: #07d159;">
+         <children>
+            <Label id="holo" contentDisplay="CENTER" layoutX="59.0" layoutY="31.0" prefHeight="99.0" prefWidth="255.0" styleClass="title" stylesheets="@styles.css" text="Alien" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="52.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="223.0" layoutY="31.0" prefHeight="99.0" prefWidth="213.0" styleClass="title" stylesheets="@styles.css" text="Hunt" textFill="#fff70f">
+               <font>
+                  <Font name="Silom" size="52.0" />
+               </font>
+            </Label>
+            <Label contentDisplay="CENTER" layoutX="97.0" layoutY="123.0" prefHeight="99.0" prefWidth="147.0" styleClass="title" stylesheets="@styles.css" text="2000" textFill="#07d159">
+               <font>
+                  <Font name="Silom" size="52.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>

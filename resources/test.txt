@@ -1,0 +1,26 @@
+SIPP,350
+ SIPP,200
+ VYST,170
+jorg,150
+fabi,140
+ivan,120
+asda,100
+ aaaa,100
+maga,100
+ceci,90
+kkkk,80
+conc,80
+   sada,70
+pepe,70
+notc,60
+karm,50
+bill,40
+SSSS,40
+gate,30
+1231,20
+null,20
+mark,20
+john,10
+pets,5
+test,1
+null,0

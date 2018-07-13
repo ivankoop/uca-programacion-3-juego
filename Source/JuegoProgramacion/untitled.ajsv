@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)--><ajsv>
+    <diagram creationDate="2015-nov-24 16:26" licenseGrade="evaluation" licenseeName="anon" licenseeOrganization="unknown" populationMethod="manual" version="1.8.3.v20151019-2113">
+        <filterScript>
+
+// no filter script yet defined for this class diagram
+// use CTRL+SPACE for completion suggestions
+
+</filterScript>
+        <class className="juego.clases.Enemigo" project="JuegoProgramacion" xLocation="1132" yLocation="1153"/>
+        <class className="juego.clases.Sprite" project="JuegoProgramacion" xLocation="157" yLocation="1355"/>
+        <class className="application.HighScoreController" project="JuegoProgramacion" xLocation="100" yLocation="740"/>
+        <class className="juego.stages.StageJuego" project="JuegoProgramacion" xLocation="1713" yLocation="1338"/>
+        <class className="application.HighScore" project="JuegoProgramacion" xLocation="1560" yLocation="394"/>
+        <class className="juego.extras.FramesInfo" project="JuegoProgramacion" xLocation="722" yLocation="1354"/>
+        <class className="application.MenuController" project="JuegoProgramacion" xLocation="646" yLocation="338"/>
+        <class className="juego.clases.Jugador" project="JuegoProgramacion" xLocation="634" yLocation="662"/>
+        <class className="juego.clases.Arma" project="JuegoProgramacion" xLocation="1117" yLocation="478"/>
+        <class className="juego.extras.Entidad" project="JuegoProgramacion" xLocation="1151" yLocation="850"/>
+        <class className="juego.main.Juego" project="JuegoProgramacion" xLocation="1701" yLocation="1023"/>
+        <class className="application.Player" project="JuegoProgramacion" xLocation="275" yLocation="383"/>
+        <class className="juego.clases.Score" project="JuegoProgramacion" xLocation="834" yLocation="1026"/>
+        <class className="application.CreditController" project="JuegoProgramacion" xLocation="983" yLocation="100"/>
+        <class className="juego.clases.Proyectil" project="JuegoProgramacion" xLocation="501" yLocation="1033"/>
+        <class className="application.PlayerComparator" project="JuegoProgramacion" xLocation="603" yLocation="119"/>
+        <class className="application.Main" project="JuegoProgramacion" xLocation="1353" yLocation="145"/>
+    </diagram>
+</ajsv>

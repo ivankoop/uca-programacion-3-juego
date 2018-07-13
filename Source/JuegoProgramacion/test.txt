@@ -1,0 +1,19 @@
+SIPP,350
+ SIPP,200
+jorg,150
+fabi,140
+ivan,120
+maga,100
+ceci,90
+conc,80
+pepe,70
+notc,60
+karm,50
+bill,40
+gate,30
+null,20
+mark,20
+john,10
+pets,5
+test,1
+null,0
